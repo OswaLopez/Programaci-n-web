@@ -1,0 +1,125 @@
+body{
+    background-image: url("../Imagenes/tienda2.jpg");
+}
+
+header {
+    background-color: #333333d7;
+}
+aside {
+    background-color:rgba(61, 55, 45, 0.692);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
+
+.disc {
+    background-color: #0e0d0d77;
+    display: flex;
+    justify-content:start;
+    padding: 20px 20px;
+}
+
+h1{
+    font-family: 'BOOTLE';
+    font-size: 30px;
+    font-weight: bold;
+    color: #faf8fad8;
+    text-align: center;
+}
+.menu2 {
+    text-align: center;
+    
+}
+
+.menu2 h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+
+.menu2 ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu2 li {
+    margin-bottom: 10px;
+}
+
+.menu2 a {
+    text-decoration: none;
+    color: #f7f4f4;
+    display: block;
+    padding: 8px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+    font-family: 'BOOTLE';
+    font-size: larger;
+}
+
+.menu2 a:hover {
+    background-color: #ddd;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.producto {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #333333dc;
+}
+
+.producto img {
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+    max-width: 75%;
+    height: auto;
+    margin-bottom: 15px;
+    /*
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;*/
+}
+.producto:hover img {
+    transform: scale(1.1); /* Aplica el efecto de escala al pasar el cursor */
+}
+
+.producto h2 {
+    font-size: 18px;
+    margin-top: 0;
+    color: #ccc;
+}
+
+.producto p {
+    font-size: 18px;
+    margin-top: 0;
+    color: #ccc;
+}
+
+h2 {
+    color: #f8f5f5;
+}
+
+/* Media query para tamaños de pantalla más pequeños */
+@media screen and (max-width: 768px) {
+    .producto {
+        flex-basis: calc(50% - 10px);
+    }
+}
+
+/* Media query para tamaños de pantalla más pequeños aún */
+@media screen and (max-width: 480px) {
+    .producto {
+        flex-basis: 100%;
+    }
+}

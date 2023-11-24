@@ -1,0 +1,90 @@
+/* Estilo para el fondo de la página */
+@font-face {
+    font-family: 'BOOTLE';
+    src: url('fonts/BOOTLE__.TTF');
+}
+.BOOTLE__ {
+    font-family: 'BOOTLE__';
+}
+body{
+    background-color: #f2f2f2;
+}
+
+h2{
+    color: #f8f7f7;
+    align-content: center;
+
+}
+h1 {
+    margin: 0;
+    color: #eeeeecd0;
+    text-align: center;
+    font-family: 'BOOTLE';
+    font-weight: bold;    
+}
+.disc {
+    background-color: #bdb9b941;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+}
+/* Estilos para el aside */
+.sidebar {
+    width: 20%;
+    float: left;
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el efecto de zoom */
+.album iframe:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Media queries para mostrar dos videos por fila */
+@media screen and (max-width: 768px) {
+    .album {
+        width: 100%; /* Ocupa todo el ancho en pantallas pequeñas */
+    }
+}
+
+
+/* Estilos para el contenedor de los videos */
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px; /* Ancho máximo para el contenido */
+}
+
+
+.discography {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.album {
+    flex-basis: calc(33.3% - 10px);
+    margin-bottom: 20px;
+}
+
+.album a img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Media query para tamaños de pantalla más pequeños */
+@media screen and (max-width: 768px) {
+    .album {
+        flex-basis: calc(50% - 10px);
+    }
+}
+
+/* Media query para tamaños de pantalla más pequeños aún */
+@media screen and (max-width: 480px) {
+    .album {
+        flex-basis: 100%;
+    }
+}

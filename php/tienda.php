@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Beatles</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/tienda.css">
+    <link rel="icon" href="../Imagenes/beatles-icon-25.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <a href="../html/Index.html"><img src="../Imagenes/logo2.png" alt="Logo de la Banda"></a>
+        </div>
+    
+        <nav class="menu">
+            <ul>
+                <li><a href="../php/biografia.php">BIOGRAFIA</a></li>
+                <li><a href="../html/musica.html">MUSICA</a></li>
+                <li><a href="../html/videos.html">VIDEOS</a></li>
+                <li><a href="../html/noticias.html">NOTICIAS</a></li>
+                <li><a href="../html/tienda.html">TIENDA</a></li>
+            </ul><br>
+        </nav>
+    </header>
+    <aside>
+        <nav class="menu2">
+            <h2>Productos</h2>
+            <ul>
+                <li><a href="#cds">CDs</a></li>
+                <li><a href="#dvds">DVDs</a></li>
+                <li><a href="#playeras">Playeras</a></li>
+                <li><a href="#vinilos">Vinilos</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <section id="cds">
+            <div class="disc"><h1>CDs</h1></div><br>
+            <div class="productos">
+                <div class="producto">
+                    <img src="../Imagenes/cd1.jpg" alt="CD">
+                    <h2>With</h2>
+                    <p>Precio: $539,21 MXN</p>
+                
+                    <form method="post" action="agregar_producto.php">
+                        <input type="hidden" name="producto_id" value="1">
+                        <button type="submit" name="agregar_carrito">Agregar al carrito</button>
+                    </form>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/cd2.jpg" alt="CD">
+                    <h2>The Beatles</h2>
+                    <p>Precio: $359,71 MXN</p>
+                    <form method="post" action="agregar_producto.php">
+                        <input type="hidden" name="producto_id" value="2">
+                        <button type="submit" name="agregar_carrito">Agregar al carrito</button>
+                    </form>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/cd33.jpg" alt="CD">
+                    <h2>Abbey Road</h2>
+                    <p>Precio: $609,00 MXN</p>
+                    <form method="post" action="agregar_producto.php">
+                        <input type="hidden" name="producto_id" value="3">
+                        <button type="submit" name="agregar_carrito">Agregar al carrito</button>
+                    </form>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/cd4.jpg" alt="CD">
+                    <h2>Sgt. Pepper's Lonely Heart</h2>
+                    <p>Precio: $1005.09 MXN</p>
+                    <form method="post" action="agregar_producto.php">
+                        <input type="hidden" name="producto_id" value="4">
+                        <button type="submit" name="agregar_carrito">Agregar al carrito</button>
+                    </form>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/cd7.jpg" alt="CD">
+                    <h2>Let It Be</h2>
+                    <p>Precio: $619.74 MXN</p>
+                    <form method="post" action="agregar_producto.php">
+                        <input type="hidden" name="producto_id" value="5">
+                        <button type="submit" name="agregar_carrito">Agregar al carrito</button>
+                    </form>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/cd6.jpg" alt="CD">
+                    <h2>The Blue Album</h2>
+                    <p>Precio: $463.24 MXN</p>
+                    <form method="post" action="agregar_producto.php">
+                        <input type="hidden" name="producto_id" value="6">
+                        <button type="submit" name="agregar_carrito">Agregar al carrito</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="dvds">
+            <div class="disc"><h1>DVDs</h1></div><br>
+            <div class="productos">
+                <div class="producto">
+                    <img src="../Imagenes/dvd1.jpg" alt="CD">
+                    <h2>The Beatles - 3 Movie Collection - Yellow Submarine / HELP! / A Hard Day's Night - DVD Set</h2>
+                    <p>Precio: $1,020.65 MXN</p>
+                    <form method="post" action="agregar_producto.php">
+                        <input type="hidden" name="producto_id" value="7">
+                        <button type="submit" name="agregar_carrito">Agregar al carrito</button>
+                    </form>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/dvd2.jpg" alt="CD">
+                    <h2>The First U.S. Visit (DVD Audio)</h2>
+                    <p>Precio: $633.14 MXN</p>
+                    <form method="post" action="agregar_producto.php">
+                        <input type="hidden" name="producto_id" value="8">
+                        <button type="submit" name="agregar_carrito">Agregar al carrito</button>
+                    </form>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/dvd3.jpg" alt="CD">
+                    <h2>Eight Days A Week - The Touring Years (DVD)</h2>
+                    <p>Precio: $261.35 MXN</p>
+                    <form method="post" action="agregar_producto.php">
+                        <input type="hidden" name="producto_id" value="9">
+                        <button type="submit" name="agregar_carrito">Agregar al carrito</button>
+                    </form>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/dvd4.jpg" alt="CD">
+                    <h2>Beatles - From Liverpool to San Francisco (Special Edition, 2 DVDs) </h2>
+                    <p>Precio: $789.99 MXN</p>
+                    <form method="post" action="agregar_producto.php">
+                        <input type="hidden" name="producto_id" value="10">
+                        <button type="submit" name="agregar_carrito">Agregar al carrito</button>
+                    </form>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/dvd5.jpg" alt="CD">
+                    <h2>The 4 Complete Ed Sullivan Shows Starring The Beatles (2-DVDs)</h2>
+                    <p>Precio: $294.16 MXN</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/dvd6.jpg" alt="CD">
+                    <h2>DVD The Beatles-Cartoons</h2>
+                    <p>Precio: $500 MXN</p>
+                    <button>Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="playeras">
+            <div class="disc"><h1>Playeras</h1></div><br>
+            <div class="productos">
+                <div class="producto">
+                    <img src="../Imagenes/p1.jpg" alt="CD">
+                    <h2>Playera The Beatles Snoopy para Mujer</h2>
+                    <p>Precio: $260.00 MXN</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/p2.jpg" alt="CD">
+                    <h2>Playera The Beatles Hombre</h2>
+                    <p>Precio: $260.00 MXN</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/p3.jpg" alt="CD">
+                    <h2>Vincit Veritas The Beatles playera Abbey Road Crosswalk playera de mercancía TS1</h2>
+                    <p>Precio: $479.99 MXN</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/p4.jpg" alt="CD">
+                    <h2>Playera The Beatles Abbey Road Snoopy</h2>
+                    <p>Precio: $250.00</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/p5.jpg" alt="CD">
+                    <h2>Playera The Beatles penauts abbey road </h2>
+                    <p>Precio: $350.00 MXN</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/p6.jpg" alt="CD">
+                    <h2>The Beatles Blusa Umbrellas</h2>
+                    <p>Precio: $511.98 MXN</p>
+                    <button>Agregar al carrito</button>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="vinilos">
+            <div class="disc"><h1>Vinilos</h1></div><br>
+            <div class="productos">
+                <div class="producto">
+                    <img src="../Imagenes/vinilo.jpg" alt="CD">
+                    <h2>The Beatles 1962-1966 Disco de vinilo Edición - Etsy México</h2>
+                    <p>Precio: $1,348.92 MXN</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/v2.jpg" alt="CD">
+                    <h2>The Beatles on Vinyl: The Must Have Records for Your Collection</h2>
+                    <p>Precio: $700.03 MXN</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/v3.jpg" alt="CD">
+                    <h2>BEATLES – ABBEY ROAD 50 ANIVERSARIO VINILO 180GR – Musicland Chile</h2>
+                    <p>Precio: $800 MXN</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/v4.jpg" alt="CD">
+                    <h2>Let It Be Special Edition</h2>
+                    <p>Precio: $532.46 MXN</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/tienda2.jpg" alt="CD">
+                    <h2>The Beatles The Early Beatles Stereo LP Disco de vinilo - Etsy México</h2>
+                    <p>Precio: $3,536.70 MXN</p>
+                    <button>Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <img src="../Imagenes/v6.jpeg" alt="CD">
+                    <h2>VINILO - THE BEATLES 20 EXITOS DE ORO - Central Librera Real</h2>
+                    <p>Precio: $1000 MXN</p>
+                    <button>Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+ <!-- Pie de página con información legal -->
+    <footer>
+        <section class="suscripcion">
+            <h3>Suscríbete a Nuestro Boletín de Noticias</h3>
+            <form id="formulario-suscripcion" action="#" method="post">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                <button type="submit">Suscribirse</button>
+            </form>
+        </section>
+     <!-- contenedor redes sociales   vi test.sh-->
+        <div class="redes-sociales">
+            <ul>
+                <a href="https://www.facebook.com/thebeatles/?locale=es_LA"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/thebeatles?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UCc4K7bAqpdBP8jh1j9XZAww"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/thebeatles/?hl=es"><i class="fab fa-instagram"></i></a>
+                <a href="https://open.spotify.com/intl-es/artist/3WrFJ7ztbogyGnTHbHJFl2"><i class="fab fa-spotify"></i></a>
+            </ul>
+        </div>
+        <p>&copy; 2023 The Beatles. Todos los derechos reservados.</p>
+        <p><a href="#">Política de Privacidad</a> | <a href="#">Términos y Condiciones</a></p>
+    </footer>
+</body>
+</html>

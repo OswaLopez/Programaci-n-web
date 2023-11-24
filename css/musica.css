@@ -1,0 +1,279 @@
+/* Estilo del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #050505;
+    background-image: url("../Imagenes/fondomusica.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #2c2c2c15;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.disc {
+    background-color: #bdb9b941;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+/* Estilo del logo */
+.logo img {
+    max-width: 140px;
+    min-height: 70px;
+    height: auto;
+}
+
+/* Estilo del menú de navegación */
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 130px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #f8f8f5;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'BOOTLE';
+}
+
+.menu a:hover {
+    color: #bde410;
+}
+
+
+.redes-sociales {
+    right: 20px; /* Margen derecho para la barra lateral */
+}
+.redes-sociales a {
+    font-size: 35px; /* Tamaño de los iconos */
+    margin-bottom: 10px; /* Espacio entre los íconos */
+    color: #f5efefef; /* Color de los íconos */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    transition: color 0.3s ease; /* Transición de color suave al pasar el cursor */
+}
+
+/* Cambiar el color de los íconos cuando se pasa el cursor sobre ellos */
+.redes-sociales a:hover {
+    color: #0056b3; /* Nuevo color al pasar el cursor */
+}
+/* Estilo de la portada del álbum */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo de la sección de información del álbum */
+h1 {
+    margin: 0;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #fcfcfa;
+    text-shadow: 2px 2px 4px #0e0d0d;
+    font-size: 40px;;
+        
+}
+.discography {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    min-height: 70px;
+    margin: 0 auto;
+}
+
+.album {
+    background-color: #e7e6e23a;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+.album img {
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+    max-width: 75%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.album p{
+    font-size: 20px;
+    color: #f5f3f3;
+    font-weight: bold;
+
+}
+
+.album h2{
+    font-size: 20px;
+    color: #f5f3f3;
+    font-weight: bold;
+
+}
+
+.album:hover img {
+    transform: scale(1.2); /* Aplica el efecto de escala al pasar el cursor */
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #221f1f;
+    color: #fff;
+    text-align: center;
+    padding: 10px; /* Reducir el espacio interno del footer */
+    font-size: 14px; /* Reducir el tamaño de fuente */
+}
+
+/* Estilo para la sección de suscripción */
+.suscripcion {
+    text-align: center;
+    margin-bottom: 10px; /* Agregar margen inferior para separarlo del texto de abajo */
+}
+
+.suscripcion h3 {
+    font-size: 16px; /* Reducir el tamaño de fuente del título */
+    margin-bottom: 5px; /* Reducir el margen inferior del título */
+}
+
+/* Estilo para el formulario de suscripción */
+#formulario-suscripcion {
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+    max-width: 300px; /* Limitar el ancho máximo del formulario */
+}
+
+#formulario-suscripcion label {
+    display: block; /* Hacer que las etiquetas ocupen una línea completa */
+    margin-bottom: 5px; /* Reducir el margen inferior de las etiquetas */
+}
+
+#formulario-suscripcion input[type="email"] {
+    width: 100%; /* Ajustar el campo de correo electrónico al ancho del formulario */
+    padding: 5px; /* Reducir el relleno del campo de correo electrónico */
+    margin-bottom: 10px; /* Aumentar el margen inferior del campo de correo electrónico */
+}
+
+.suscripcion button {
+    background-color: #1d7ce2;
+    color: #fcfbfb;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.suscripcion button:hover {
+    background-color: #0056b3;  /*Cambia el color al pasar el cursor */
+}
+
+/* Estilo para el texto de derechos de autor y enlaces */
+footer p {
+    margin: 0; /* Eliminar el margen predeterminado del párrafo */
+}
+
+footer a {
+    color: #007BFF; /* Cambiar el color de los enlaces */
+    text-decoration: none;
+}
+
+
+.logo {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.menu ul {
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Estilos para la discografía */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.discography {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.album {
+    flex-basis: calc(33.3% - 10px);
+    margin-bottom: 20px;
+}
+
+.album a img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para las redes sociales */
+.redes-sociales ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.redes-sociales ul a {
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Media query para tamaños de pantalla más pequeños */
+@media screen and (max-width: 768px) {
+    .album {
+        flex-basis: calc(50% - 10px);
+    }
+}
+
+/* Media query para tamaños de pantalla más pequeños aún */
+@media screen and (max-width: 480px) {
+    .album {
+        flex-basis: 100%;
+    }
+}

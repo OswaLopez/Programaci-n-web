@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografia de The Beatles</title>
+    <link rel="stylesheet" href="../css/biografia.css">
+    <link rel="icon" href="../Imagenes/beatles-icon-25.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="../html/Index.html"><img src="../Imagenes/logo2.png" alt="Logo de la Banda"></a>
+        </div>
+   
+        <nav class="menu">
+            <ul>
+                <li><a href="biografia.php">BIOGRAFIA</a></li>
+                <li><a href="../html/musica.html">MUSICA</a></li>
+                <li><a href="../html/videos.html">VIDEOS</a></li>
+                <li><a href="../html/noticias.html">NOTICIAS</a></li>
+                <li><a href="../php/tienda.php">TIENDA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="miembros-banda">
+            <div class="miem"><h1>Miembros de la banda</h1></div>
+            <pre>Los miembros originales de la banda The Beatles, que se formó 
+                 en Liverpool, Reino Unido, en 1960, fueron:</pre>
+            <ul>
+                <li>
+                    <img src="../Imagenes/lenon.jpg" alt="John Lennon">
+                    <p>John Lennon: Cantante y guitarrista rítmico.</p>
+
+                </li>
+                <li>
+                    <img src="../Imagenes/paul.jpg" alt="John Lennon">
+                    <p>Paul McCartney: Cantante, bajista y guitarrista.</p>
+
+                </li>
+                <li>
+                    <img src="../Imagenes/harrison.jpg" alt="John Lennon">
+                    <p>George Harrison: Guitarrista principal y cantante.</p>
+
+                </li>
+                <li>
+                    <img src="../Imagenes/ringo.jpg" alt="John Lennon">
+                    <p>Ringo Starr (nombre real: Richard Starkey): Baterista y ocasionalmente cantante.</p>
+
+                </li>
+            </ul>
+            <div class="descp"><h4>Estos cuatro músicos son conocidos como los miembros fundadores y más influyentes de The Beatles. 
+               Juntos, crearon algunas de las canciones más icónicas y populares en la historia de la música. 
+               La banda se disolvió oficialmente en 1970, y cada miembro continuó con exitosas carreras en solitario
+               y proyectos musicales.</h4></div>
+        </section><hr>
+   
+        <div class="linea"><h1>Linea del Tiempo</h1></div>
+  
+        <div class="timeline">
+            <div class="event" data-image="../Imagenes/evento1.jpg">
+            <div class="date">1957</div>
+            <div class="description">John Lennon y Paul McCartney se conocen en una iglesia de Liverpool. 
+                Este encuentro marca el inicio de la futura colaboración musical.</div>
+        </div>
+        <div class="event" data-image="../Imagenes/portada the beatles.jpg">
+            <div class="date">1960</div>
+            <div class="description">La banda cambia su nombre a "The Beatles" y realiza una serie de 
+            conciertos en Hamburgo, Alemania, para perfeccionar su sonido y habilidades en el escenario.</div>
+        </div>
+        <div class="event" data-image="../Imagenes/evento3.jpg">
+            <div class="date">1962</div>
+            <div class="description"> George Martin, productor de EMI, firma un contrato con The Beatles y 
+                la banda lanza su primer sencillo, "Love Me Do".</div>
+        </div>
+        <div class="event" data-image="../Imagenes/evento4.jpg">
+            <div class="date">1963</div>
+            <div class="description">The Beatles lanzan su primer álbum de estudio, "Please Please Me", que
+                 incluye éxitos como "Twist and Shout" y "I Saw Her Standing There".</div>
+        </div>
+        <div class="event" data-image="../Imagenes/evento5.jpg">
+            <div class="date">1964</div>
+            <div class="description">El fenómeno de "Beatlemania" estalla en todo el mundo cuando la banda 
+                realiza una histórica gira por Estados Unidos y aparece en "The Ed Sullivan Show".</div>
+        </div>
+        <div class="event" data-image="../Imagenes/evento6.jpg">
+            <div class="date">1965</div>
+            <div class="description">The Beatles lanzan "Rubber Soul", un álbum que marca un cambio en su 
+                estilo musical hacia un sonido más experimental.</div>
+        </div>
+        <div class="event" data-image="../Imagenes/evento7.jpg">
+            <div class="date">1967</div>
+            <div class="description">La banda lanza "Sgt. Pepper's Lonely Hearts Club Band", un álbum que se
+                 considera uno de los más influyentes en la historia de la música popular.</div>
+        </div>
+        <div class="event" data-image="../Imagenes/evento8.jpg">
+            <div class="date">1969</div>
+            <div class="description">The Beatles realizan su último concierto público en la azotea
+                 de Apple Corps en Londres.</div>
+        </div>
+        <div class="event" data-image="../Imagenes/evento9.jpg">
+            <div class="date">1970</div>
+            <div class="description">La banda se separa oficialmente, y cada miembro sigue carreras en solitario.
+                 Lanzan sus respectivos álbumes en solitario, como "McCartney" de Paul McCartney y 
+                 "All Things Must Pass" de George Harrison.</div>
+        </div>
+        <div class="event" data-image="../Imagenes/evento10.jpg">
+            <div class="date">1980</div>
+            <div class="description">Trágicamente, John Lennon es asesinado en Nueva York el 8 de diciembre.</div>
+        </div>
+        <div class="event" data-image="../Imagenes/evento11.jpg">
+            <div class="date">1995</div>
+            <div class="description">Los tres miembros sobrevivientes de The Beatles se reúnen para trabajar
+            en la canción "Free as a Bird", utilizando una grabación previamente no lanzada de John Lennon.</div>
+        </div>
+        <div class="event" data-image="../Imagenes/evento12.jpg">
+            <div class="date">2000</div>
+            <div class="description">Se lanza el álbum recopilatorio "1", que presenta todos los éxitos número
+                 uno de The Beatles.</div>
+        </div>
+        <div class="event" data-image="../Imagenes/evento13.jpg">
+            <div class="date">2010</div>
+            <div class="description">Paul McCartney y Ringo Starr, los dos miembros sobrevivientes, actúan 
+                juntos en el concierto benéfico "The Night That Changed America" para conmemorar el 50 aniversario
+                de la aparición de The Beatles en el programa de Ed Sullivan.</div>
+        </div>
+    </div>
+
+    <div class="image-popup">
+        <img src="../Imagenes/evento1.jpg" alt="Imagen del evento">
+        <span class="close-popup">&times;</span>
+    </div>
+
+    <script src="../js/biografia.js"></script>
+</main>
+
+ <!-- Pie de página con información legal -->
+<footer class="footer">
+    <section class="suscripcion">
+        <h3>Suscríbete a Nuestro Boletín de Noticias</h3>
+        <form id="formulario-suscripcion" method="post">
+            <label for="correo">Nombre:</label>
+            <input type="text" name="name" placeholder="Nombre completo" required>
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="email" required>
+            <button type="submit" name="suscripcion">Suscribirse</button>
+        </form>
+        <?php include("registrar.php"); ?>
+    </section>
+    <div class="redes-sociales">
+        <ul>
+            <a href="https://www.facebook.com/thebeatles/?locale=es_LA"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/thebeatles?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/channel/UCc4K7bAqpdBP8jh1j9XZAww"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/thebeatles/?hl=es"><i class="fab fa-instagram"></i></a>
+            <a href="https://open.spotify.com/intl-es/artist/3WrFJ7ztbogyGnTHbHJFl2"><i class="fab fa-spotify"></i></a>
+        </ul>
+        </div>
+        <p>&copy; 2023 The Beatles. Todos los derechos reservados.</p>
+        <p><a href="#">Política de Privacidad</a> | <a href="#">Términos y Condiciones</a></p>
+</footer>
+</body>
+</html>
